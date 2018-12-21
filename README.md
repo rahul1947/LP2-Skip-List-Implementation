@@ -1,13 +1,12 @@
-/**
- * CS 5V81.001. Implementation of data structures and algorithms 
- * Long Project LP2: Skip List Implementation
- * @author Rahul Nalawade (rsn170330)
- * @author Arpita Agrawal (aua170030)
- * @author Simran Rawlani (sxr174130)
- * @author Yash Madane (yxm172130)
+# CS 5V81.001. Implementation of data structures and algorithms 
+# Long Project LP2: Skip List Implementation
+
+ * @author **Rahul Nalawade** (rsn170330)
+ * @author **Arpita Agrawal** (aua170030)
+ * @author **Simran Rawlani** (sxr174130)
+ * @author **Yash Madane** (yxm172130)
  * 
  * Date: Sunday, October 14, 2018
- */
  __________________________________________________________________________
 
 ## OVERVIEW
