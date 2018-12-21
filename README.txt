@@ -6,30 +6,24 @@
  * @author Simran Rawlani (sxr174130)
  * @author Yash Madane (yxm172130)
  * 
+ * Date: Sunday, October 14, 2018
  */
+ __________________________________________________________________________
 
-1. Extract the rsn170330.zip 
+## OVERVIEW
 
-2. Compile: 
-	$javac rsn170330/*.java
+Please read the [Details](https://github.com/rahul1947/LP2-Skip-List-Implementation/blob/master/SkipListDetails.pdf) about the SkipList. 
 
-3. Run: 
-	$java rsn170330.SkipListDriver lp2-inputs/lp2-in14.txt
-
----------------------------------------------------------------------------
-#OVERVIEW
-As you go through the code, we've tried to do necessary comments for 
-almost all concepts. Here are some important things to note:
-
-- We have the same public interface as in the Starter code provided.
-
-ENTRY ATTRIBUTES:
+### ENTRY ATTRIBUTES: 
+```
 - Every Entry has height {which tells us how many non-null entries it's 
   next[] has}
 - It also has span[], span[i]: storing distance of the Entry in next[i] 
   from the current Entry
+```
 
-SKIPLIST ATTRIBUTES: 
+### SKIPLIST ATTRIBUTES: 
+```
 - last[]: an array of Entry<T>, 
   last[i]: Entry at which search came down from level i
 
@@ -47,9 +41,11 @@ SKIPLIST ATTRIBUTES:
 - There are some private methods which you may use to print the skip list 
   - call printList() to print the list with next[] references. 
   - call printListSpan() to print the list with span[] values for each Entry
+```
+___________________________________________________________________________
 
-----------------------------------------------------------------------------
-#OBSERVATION:
+## OBSERVATION:
+```
 - Our span[] is of type integer, which could have maximum value as 
   (size+1, when head pointing to tail). 
   
@@ -58,5 +54,17 @@ SKIPLIST ATTRIBUTES:
   But we had our POSSIBLE_LEVELS as 33, which could fit in 2^33 - 1 elements.
   Hence, our top two levels will always have pointers from head to tail. 
   And we could've set POSSIBLE_LEVELS to 31, instead of 33.
+```
+___________________________________________________________________________
 
+## How to Run
+```
+1. Extract the rsn170330.zip 
 
+2. Compile: 
+	$javac rsn170330/*.java
+
+3. Run: 
+	$java rsn170330.SkipListDriver lp2-inputs/lp2-in14.txt
+```
+___________________________________________________________________________
