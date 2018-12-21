@@ -1,15 +1,14 @@
-# CS 5V81.001. Implementation of data structures and algorithms 
 # Long Project LP2: Skip List Implementation
 
  * @author **Rahul Nalawade** (rsn170330)
  * @author **Arpita Agrawal** (aua170030)
  * @author **Simran Rawlani** (sxr174130)
  * @author **Yash Madane** (yxm172130)
- * 
+
  * Date: Sunday, October 14, 2018
  __________________________________________________________________________
 
-## OVERVIEW
+## A. OVERVIEW
 
 Please read the [Details](https://github.com/rahul1947/LP2-Skip-List-Implementation/blob/master/SkipListDetails.pdf) about the SkipList. 
 
@@ -43,7 +42,7 @@ Please read the [Details](https://github.com/rahul1947/LP2-Skip-List-Implementat
 ```
 ___________________________________________________________________________
 
-## OBSERVATION:
+## B. OBSERVATION:
 ```
 - Our span[] is of type integer, which could have maximum value as 
   (size+1, when head pointing to tail). 
@@ -56,7 +55,7 @@ ___________________________________________________________________________
 ```
 ___________________________________________________________________________
 
-## How to Run
+## C. How to Run
 ```
 1. Extract the rsn170330.zip 
 
