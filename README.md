@@ -58,7 +58,7 @@ ___________________________________________________________________________
 
 ### 1. add-remove-contains operations only:
 
-|     File     | # Operations | Time (mSec) | Memory (used/avail) | 
+|    `File`     |`# Operation` |`Time (mSec)` |`Memory (used/avail)`| 
 |:------------:|-------------:|------------:|--------------------:| 
 | lp2-t01.txt  |           50 |           7 |       1 MB / 117 MB | 
 | lp2-t02.txt  |          200 |          11 |       1 MB / 117 MB | 
@@ -69,7 +69,7 @@ ___________________________________________________________________________
  
 ### 2. add-remove-contains-floor-ceiling-get-first-last operations: 
 
-|     File     | # Operations | Time (mSec) | Memory (used/avail) | 
+|    `File`     |`# Operation` |`Time (mSec)` |`Memory (used/avail)`| 
 |:------------:|-------------:|------------:|--------------------:| 
 | lp2-t11.txt  |           50 |           5 |       1 MB / 117 MB | 
 | lp2-t12.txt  |          100 |           8 |       1 MB / 117 MB | 
@@ -86,8 +86,8 @@ ___________________________________________________________________________
 1. Extract the rsn170330.zip 
 
 2. Compile: 
-	'$javac rsn170330/*.java'
+	`$javac rsn170330/*.java`
 
 3. Run: 
-	'$java rsn170330.SkipListDriver lp2-inputs/lp2-in14.txt'
+	`$java rsn170330.SkipListDriver lp2-inputs/lp2-in14.txt`
 ___________________________________________________________________________
