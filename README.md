@@ -12,7 +12,7 @@
 
 Please read the [details](https://github.com/rahul1947/LP2-Skip-List-Implementation/blob/master/SkipListDetails.pdf) about the SkipList. 
 
-### ENTRY ATTRIBUTES: 
+### 1. ENTRY ATTRIBUTES: 
 ```
 - Every Entry has height {which tells us how many non-null entries it's 
   next[] has}
@@ -20,7 +20,7 @@ Please read the [details](https://github.com/rahul1947/LP2-Skip-List-Implementat
   from the current Entry
 ```
 
-### SKIPLIST ATTRIBUTES: 
+### 2. SKIPLIST ATTRIBUTES: 
 ```
 - last[]: an array of Entry<T>, 
   last[i]: Entry at which search came down from level i
@@ -60,7 +60,7 @@ ___________________________________________________________________________
 ### 1. add-remove-contains operations only:
 
 |     File     | # Operations | Time (mSec) | Memory (used/avail) | 
-|--------------|--------------|-------------|---------------------| 
+|:------------:|-------------:|------------:|--------------------:| 
 | lp2-t01.txt  |           50 |           7 |       1 MB / 117 MB | 
 | lp2-t02.txt  |          200 |          11 |       1 MB / 117 MB | 
 | lp2-t03.txt  |         1000 |          22 |       3 MB / 117 MB | 
@@ -71,7 +71,7 @@ ___________________________________________________________________________
 ### 2. add-remove-contains-floor-ceiling-get-first-last operations: 
 
 |     File     | # Operations | Time (mSec) | Memory (used/avail) | 
-|--------------|--------------|-------------|---------------------| 
+|:------------:|-------------:|------------:|--------------------:| 
 | lp2-t11.txt  |           50 |           5 |       1 MB / 117 MB | 
 | lp2-t12.txt  |          100 |           8 |       1 MB / 117 MB | 
 | lp2-t13.txt  |          200 |          11 |       1 MB / 117 MB | 
@@ -82,7 +82,7 @@ ___________________________________________________________________________
  
 ___________________________________________________________________________
 
-## C. How to Run
+## D. How to Run
 ```
 1. Extract the rsn170330.zip 
 
