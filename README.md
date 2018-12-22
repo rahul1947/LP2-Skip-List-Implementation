@@ -59,7 +59,7 @@ ___________________________________________________________________________
 
 ### 1. add-remove-contains operations only:
 
-|    'File'    |'# Operations'|'Time (mSec)'|'Memory (used/avail)'| 
+|     File     | # Operations | Time (mSec) | Memory (used/avail) | 
 |:------------:|-------------:|------------:|--------------------:| 
 | lp2-t01.txt  |           50 |           7 |       1 MB / 117 MB | 
 | lp2-t02.txt  |          200 |          11 |       1 MB / 117 MB | 
@@ -70,7 +70,7 @@ ___________________________________________________________________________
  
 ### 2. add-remove-contains-floor-ceiling-get-first-last operations: 
 
-|    'File'    |'# Operations'|'Time (mSec)'|'Memory (used/avail)'| 
+|     File     | # Operations | Time (mSec) | Memory (used/avail) | 
 |:------------:|-------------:|------------:|--------------------:| 
 | lp2-t11.txt  |           50 |           5 |       1 MB / 117 MB | 
 | lp2-t12.txt  |          100 |           8 |       1 MB / 117 MB | 
