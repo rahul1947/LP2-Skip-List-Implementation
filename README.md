@@ -1,11 +1,13 @@
 # Long Project LP2: Skip List Implementation
 
- * @author **Rahul Nalawade** (rsn170330)
- * @author **Arpita Agrawal** (aua170030)
- * @author **Simran Rawlani** (sxr174130)
- * @author **Yash Madane** (yxm172130)
+### Authors:
+ * [Rahul Nalawade](https://github.com/rahul1947) - rsn170330
+ * [Dhwani Raval](https://github.com/dhwaniraval) - dsr170230
+ * Varun Parashar - vxp171830
+ * [Arpita Agrawal](https://github.com/ArpitaAgrawal1305) - aua170030
 
- * Date: Sunday, October 14, 2018
+### End Date: 
+ * Sunday, October 14, 2018
  __________________________________________________________________________
 
 ## A. OVERVIEW
