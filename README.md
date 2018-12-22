@@ -78,7 +78,13 @@ ___________________________________________________________________________
 | lp2-t15.txt  |        50000 |         182 |      29 MB / 117 MB | 
 | lp2-t16.txt  |       100000 |         266 |      57 MB / 147 MB | 
 | lp2-t17.txt  |      1000000 |        2659 |     247 MB / 583 MB |  
- 
+
+NOTE: 
+- Time and Memory might change, as you run the test the program on a different 
+  system, but they could be comparable to the above values.
+  
+  Existing Processor: Intel® Core™ i5-8250U CPU @ 1.60GHz × 8
+  Memory: 7.5 GiB
 ___________________________________________________________________________
 
 ## D. How to Run
