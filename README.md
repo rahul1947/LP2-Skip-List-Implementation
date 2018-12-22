@@ -13,15 +13,14 @@
 Please read the [details](https://github.com/rahul1947/LP2-Skip-List-Implementation/blob/master/SkipListDetails.pdf) about the SkipList. 
 
 ### 1. ENTRY ATTRIBUTES: 
-```
+
 - Every Entry has height {which tells us how many non-null entries it's 
   next[] has}
 - It also has span[], span[i]: storing distance of the Entry in next[i] 
   from the current Entry
-```
 
 ### 2. SKIPLIST ATTRIBUTES: 
-```
+
 - last[]: an array of Entry<T>, 
   last[i]: Entry at which search came down from level i
 
@@ -39,11 +38,10 @@ Please read the [details](https://github.com/rahul1947/LP2-Skip-List-Implementat
 - There are some private methods which you may use to print the skip list 
   - call printList() to print the list with next[] references. 
   - call printListSpan() to print the list with span[] values for each Entry
-```
 ___________________________________________________________________________
 
 ## B. OBSERVATION:
-```
+
 - Our span[] is of type integer, which could have maximum value as 
   (size+1, when head pointing to tail). 
   
@@ -52,7 +50,6 @@ ___________________________________________________________________________
   But we had our POSSIBLE_LEVELS as 33, which could fit in 2^33 - 1 elements.
   Hence, our top two levels will always have pointers from head to tail. 
   And we could've set POSSIBLE_LEVELS to 31, instead of 33.
-```
 ___________________________________________________________________________
 
 ## C. RESULTS:
@@ -83,13 +80,12 @@ ___________________________________________________________________________
 ___________________________________________________________________________
 
 ## D. How to Run
-```
+
 1. Extract the rsn170330.zip 
 
 2. Compile: 
-	$javac rsn170330/*.java
+	'$javac rsn170330/*.java'
 
 3. Run: 
-	$java rsn170330.SkipListDriver lp2-inputs/lp2-in14.txt
-```
+	'$java rsn170330.SkipListDriver lp2-inputs/lp2-in14.txt'
 ___________________________________________________________________________
