@@ -85,11 +85,9 @@ ___________________________________________________________________________
 
 1. Extract the rsn170330.zip 
 
-2. Compile: 
-
-`$javac rsn170330/*.java`
-
-3. Run: 
-
-`$java rsn170330.SkipListDriver lp2-inputs/lp2-in14.txt`
+2. Compile and Run: 
+```
+$javac rsn170330/*.java
+$java rsn170330.SkipListDriver test-lp2/lp2-t14.txt
+```
 ___________________________________________________________________________
