@@ -5,7 +5,7 @@ package rsn170330.lp2;
  * Long Project LP2: Skip List Implementation
  * @author Rahul Nalawade (rsn170330)
  * @author Dhwani Raval (dsr170230)
- * @author VArun Parashar (vxp171830)
+ * @author Varun Parashar (vxp171830)
  * @author Arpita Agrawal (aua170030)
  * 
  * Date: Sunday, October 14, 2018

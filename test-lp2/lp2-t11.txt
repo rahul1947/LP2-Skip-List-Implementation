@@ -1,0 +1,53 @@
+Add 24
+Add 11
+Add 2
+Contains 1
+Contains 11
+Add 9
+Add 11
+Add 6
+Add 46
+Add 5
+Add 37
+Add 2
+Add 17
+Get 1
+Add 39
+Add 30
+Add 41
+Add 36
+Add 31
+Add 42
+Floor 9
+Add 34
+Contains 42
+Add 19
+Add 48
+Floor 30
+Add 48
+Add 5
+Add 29
+Add 43
+Add 48
+Get 9
+Add 14
+Add 44
+Contains 22
+Add 49
+Contains 2
+Remove 31
+Add 43
+Ceiling 43
+Get 4
+Add 40
+Add 15
+Add 47
+Add 27
+Ceiling 2
+Add 43
+Add 23
+Add 20
+End
+ 
+Output:
+163
