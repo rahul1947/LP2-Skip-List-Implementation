@@ -1,10 +1,10 @@
 # Long Project LP2: Skip List Implementation
 
 ### Authors:
- * [Rahul Nalawade](https://github.com/rahul1947) - rsn170330
- * [Dhwani Raval](https://github.com/dhwaniraval) - dsr170230
- * Varun Parashar - vxp171830
- * [Arpita Agrawal](https://github.com/ArpitaAgrawal1305) - aua170030
+ * [Rahul Nalawade](https://github.com/rahul1947) - rsn170330@utdallas.edu
+ * [Dhwani Raval](https://github.com/dhwaniraval) - dsr170230@utdallas.edu
+ * Varun Parashar - vxp171830@utdallas.edu
+ * [Arpita Agrawal](https://github.com/ArpitaAgrawal1305) - aua170030@utdallas.edu
 
 ### End Date: 
  * Sunday, October 14, 2018
