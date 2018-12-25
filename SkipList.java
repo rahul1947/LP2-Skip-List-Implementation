@@ -248,6 +248,7 @@ public class SkipList<T extends Comparable<? super T>> {
 	public int chooseLevel() {
 		// fast method:
 		int lev = 1 + Integer.numberOfLeadingZeros(rand.nextInt());
+		// floor(log2(x)) = 31 - numberOfLeadingZeros(x)
 		
 		// optionally (to allow maxLevel to grow gradually) - 
 		lev = Math.min(lev,  maxLevel + 1);
@@ -391,7 +392,6 @@ public class SkipList<T extends Comparable<? super T>> {
 		}
 		return (distance + 1);
 	}
-	
 	
 	/**
 	 * Return element at index n of list. 
@@ -867,8 +867,10 @@ public class SkipList<T extends Comparable<? super T>> {
 		sk.printList();
 		// System.out.println();
 		// sk.printListSpan();
-		
-		
-		
 	}
 }
+/**
+ * Future work:
+ * 1. rebuild() - make it recursive
+ * 2. rebuild() - use Integer.numberOfLeadingZeros() instead of powersOfTwo?
+ */

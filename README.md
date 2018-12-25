@@ -8,7 +8,7 @@
 
 ### End Date: 
  * Sunday, October 14, 2018
- __________________________________________________________________________
+ ______________________________________________________________________________
 
 ## A. OVERVIEW
 
@@ -40,7 +40,7 @@ Please read the [details](https://github.com/rahul1947/LP2-Skip-List-Implementat
 - There are some private methods which you may use to print the skip list 
   - call printList() to print the list with next[] references. 
   - call printListSpan() to print the list with span[] values for each Entry
-___________________________________________________________________________
+_______________________________________________________________________________
 
 ## B. OBSERVATION:
 
@@ -52,7 +52,7 @@ ___________________________________________________________________________
   But we had our POSSIBLE_LEVELS as 33, which could fit in 2^33 - 1 elements.
   Hence, our top two levels will always have pointers from head to tail. 
   And we could've set POSSIBLE_LEVELS to 31, instead of 33.
-___________________________________________________________________________
+_______________________________________________________________________________
 
 ## C. RESULTS:
 
@@ -80,12 +80,12 @@ ___________________________________________________________________________
 | lp2-t17.txt  |      1000000 |        2659 |     247 MB / 583 MB |  
 
 NOTE: 
-- Time and Memory might change, as you run the test the program on a different 
-  system, but they could be comparable to the above values.
+- Time and Memory might change, as you run the test the program on a 
+  different system, but they could be comparable to the above values.
   
-  Existing Processor: Intel® Core™ i5-8250U CPU @ 1.60GHz × 8 
-  Memory: 7.5 GiB
-___________________________________________________________________________
+Existing Processor: Intel® Core™ i5-8250U CPU @ 1.60GHz × 8 
+Memory: 7.5 GiB
+_______________________________________________________________________________
 
 ## D. How to Run
 
@@ -96,4 +96,4 @@ ___________________________________________________________________________
 $javac rsn170330/*.java
 $java rsn170330.SkipListDriver lp2-test/lp2-t14.txt
 ```
-___________________________________________________________________________
+_______________________________________________________________________________
