@@ -83,7 +83,7 @@ NOTE:
 - Time and Memory might change, as you run the test the program on a different 
   system, but they could be comparable to the above values.
   
-  Existing Processor: Intel® Core™ i5-8250U CPU @ 1.60GHz × 8
+  Existing Processor: Intel® Core™ i5-8250U CPU @ 1.60GHz × 8 
   Memory: 7.5 GiB
 ___________________________________________________________________________
 
@@ -94,6 +94,6 @@ ___________________________________________________________________________
 2. Compile and Run: 
 ```
 $javac rsn170330/*.java
-$java rsn170330.SkipListDriver test-lp2/lp2-t14.txt
+$java rsn170330.SkipListDriver lp2-test/lp2-t14.txt
 ```
 ___________________________________________________________________________
