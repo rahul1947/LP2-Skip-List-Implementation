@@ -18,6 +18,21 @@ import java.util.NoSuchElementException;
 public class SkipList<T extends Comparable<? super T>> {
 	static final int POSSIBLE_LEVELS = 33;
 	
+	// Dummy header & tail is created.
+	private Entry<T> head, tail;
+	
+	// maxLevel is the level equal to the longest next[]
+	public int size, maxLevel; 
+	
+	// last[i]: Entry at which search came down from level i
+	private Entry<T>[] last; // used by find
+	
+	// distanceTraversed[i]: distance traversed on level i, 
+	// as search came down from last[i] to level i-1
+	private int[] distanceTraversed; // used for updating span[]
+	
+	private Random rand; // for random height (like using coin-flip)
+	
 	static class Entry<E> {
 		E element;
 		Entry<E>[] next;
@@ -42,21 +57,6 @@ public class SkipList<T extends Comparable<? super T>> {
 			return element;
 		}
 	}
-	
-	// Dummy header & tail is created.
-	private Entry<T> head, tail;
-	
-	// maxLevel is the level equal to the longest next[]
-	public int size, maxLevel; 
-	
-	// last[i]: Entry at which search came down from level i
-	private Entry<T>[] last; // used by find
-	
-	// distanceTraversed[i]: distance traversed on level i, 
-	// as search came down from last[i] to level i-1
-	private int[] distanceTraversed; // used for updating span[]
-	
-	private Random rand; // for random height (like using coin-flip)
 	
 	// Default Constructor
 	public SkipList() {
